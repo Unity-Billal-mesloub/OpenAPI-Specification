@@ -1,6 +1,6 @@
 # The OpenAPI Specification
 
-![Build Status](https://github.com/OAI/OpenAPI-Specification/workflows/validate-markdown/badge.svg) [![Issue triagers](https://www.codetriage.com/oai/openapi-specification/badges/users.svg)](https://www.codetriage.com/oai/openapi-specification)
+![Build Status](https://github.com/Unity-Billal-mesloub/OpenAPI-Specification/workflows/validate-markdown/badge.svg) [![Issue triagers](https://www.codetriage.com/oai/openapi-specification/badges/users.svg)](https://www.codetriage.com/oai/openapi-specification)
 
 ![OpenAPI logo](https://avatars3.githubusercontent.com/u/16343502?v=3&s=200)
 
@@ -17,7 +17,7 @@ This GitHub project is the starting point for OpenAPI. Here you will find the in
 
 ## Versions
 
-This repository contains [the Markdown sources](versions) for [all published OpenAPI Specification versions](https://spec.openapis.org/). For release notes and release candidate versions, refer to the [releases page](https://github.com/OAI/OpenAPI-Specification/releases).
+This repository contains [the Markdown sources](versions) for [all published OpenAPI Specification versions](https://spec.openapis.org/). For release notes and release candidate versions, refer to the [releases page](https://github.com/Unity-Billal-mesloub/OpenAPI-Specification/releases).
 
 ## See It in Action
 
@@ -41,14 +41,10 @@ The OpenAPI Initiative encourages participation from individuals and companies a
 
 * Review the specification [markdown sources](versions) and [authoritative _source-of-truth_ HTML renderings](https://spec.openapis.org/), including full credits and citations.
 * Review the [contributing](CONTRIBUTING.md) process so you understand how the spec is evolving.
-* Check the [discussions](https://github.com/OAI/OpenAPI-Specification/discussions), [issues](https://github.com/OAI/OpenAPI-Specification/issues) and [pull requests](https://github.com/OAI/OpenAPI-Specification/pulls) to see if someone has already documented your idea or feedback on the specification. You can follow an existing conversation by subscribing to the existing issue or PR.
+* Check the [discussions](https://github.com/Unity-Billal-mesloub/OpenAPI-Specification/discussions), [issues](https://github.com/OAI/OpenAPI-Specification/issues) and [pull requests](https://github.com/Unity-Billal-mesloub/OpenAPI-Specification/pulls) to see if someone has already documented your idea or feedback on the specification. You can follow an existing conversation by subscribing to the existing issue or PR.
 * Subscribe to an open issue a day (or a week) in your inbox via [CodeTriage.com](https://www.codetriage.com/oai/openapi-specification).
 * Create a discussion to describe a new concern, ideally with clear explanations of related use cases.
 
 Not all feedback can be accommodated, and there may be solid arguments for or against a change being appropriate for the specification.
-
-## Licensing
-
-See: [License (Apache-2.0)](https://github.com/OAI/OpenAPI-Specification/blob/main/LICENSE)
 
 
