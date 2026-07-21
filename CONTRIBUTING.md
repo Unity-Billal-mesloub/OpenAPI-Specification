@@ -2,7 +2,7 @@
 
 ## Key information
 
-This project is covered by our [Code of Conduct](https://github.com/OAI/OpenAPI-Specification?tab=coc-ov-file#readme) and [AI policy](AI.md).
+This project is covered by our [Code of Conduct](https://github.com/Unity-Billal-mesloub/OpenAPI-Specification?tab=coc-ov-file#readme) and [AI policy](AI.md).
 All participants are expected to read and follow these policies.
 
 No changes, however trivial, are ever made to the contents of published specifications (the files in the `versions/` folder).
@@ -35,7 +35,7 @@ The current active specification releases are:
 | 3.1.3 | `v3.1-dev` | active patch release line |
 | 3.2.1 | `v3.2-dev` | active patch release line |
 | 3.3.0 | `v3.3-dev` | minor release in development |
-| 4.0.0 | [OAI/sig-moonwalk](https://github.com/OAI/sig-moonwalk) | [discussions only](https://github.com/OAI/sig-moonwalk/discussions) |
+| 4.0.0 | [OAI/sig-moonwalk](https://github.com/Unity-Billal-mesloub/sig-moonwalk) | [discussions only](https://github.com/OAI/sig-moonwalk/discussions) |
 
 ## How to contribute
 
@@ -49,7 +49,7 @@ Please jump to the most relevant section from the list below:
 
 ## Discussions
 
-We use [discussions](https://github.com/OAI/OpenAPI-Specification/discussions?discussions_q=is%3Aopen) for anything that doesn't (yet) have a specific action associated with it.
+We use [discussions](https://github.com/Unity-Billal-mesloub/OpenAPI-Specification/discussions?discussions_q=is%3Aopen) for anything that doesn't (yet) have a specific action associated with it.
 Most ideas start as discussions.
 
 Please do come and start a discussion to:
@@ -116,15 +116,15 @@ Closing issues is a reversible action, and it is always acceptable to comment an
 We make extensive use of labels.
 The main categories are:
 
-- [Housekeeping](https://github.com/OAI/OpenAPI-Specification/labels/Housekeeping) for meetings, project logistics, etc.
-- [approved pr port](https://github.com/OAI/OpenAPI-Specification/labels/approved%20pr%20port) for pull requests that repeat a change from one version to another
+- [Housekeeping](https://github.com/Unity-Billal-mesloub/OpenAPI-Specification/labels/Housekeeping) for meetings, project logistics, etc.
+- [approved pr port](https://github.com/Unity-Billal-mesloub/OpenAPI-Specification/labels/approved%20pr%20port) for pull requests that repeat a change from one version to another
 - most other tags are used to group similar or related issues into topic areas; this list is ever-changing
 
 Labels related to [issue automation](#appendix-issue-automation)
 
-- [Needs attention](https://github.com/OAI/OpenAPI-Specification/labels/Needs%20attention) automated tag when an issue is updated
-- [Needs author feedback](https://github.com/OAI/OpenAPI-Specification/labels/Needs%20author%20feedback) used to indicate that more information is needed from the issue creator
-- [No recent activity](https://github.com/OAI/OpenAPI-Specification/labels/No%20recent%20activity) if no information is received, the issue is marked for closure (automatic after 30 days)
+- [Needs attention](https://github.com/Unity-Billal-mesloub/OpenAPI-Specification/labels/Needs%20attention) automated tag when an issue is updated
+- [Needs author feedback](https://github.com/Unity-Billal-mesloub/OpenAPI-Specification/labels/Needs%20author%20feedback) used to indicate that more information is needed from the issue creator
+- [No recent activity](https://github.com/Unity-Billal-mesloub/OpenAPI-Specification/labels/No%20recent%20activity) if no information is received, the issue is marked for closure (automatic after 30 days)
 
 ### Milestones
 
@@ -138,8 +138,8 @@ The milestones and items assigned to them are under constant review and subject 
 
 The OpenAPI Initiative uses GitHub Projects to manage work _outside_ of the specification development process.  There are currently two active projects:
 
-* [Contributor Guidance](https://github.com/orgs/OAI/projects/5/views/1)
-* [Automation & Infrastructure](https://github.com/orgs/OAI/projects/4/views/1)
+* [Contributor Guidance](https://github.com/orgs/Unity-Billal-mesloub/projects/5/views/1)
+* [Automation & Infrastructure](https://github.com/orgs/Unity-Billal-mesloub/projects/4/views/1)
 
 ## Pull requests
 
@@ -231,7 +231,7 @@ The steps for creating a `vX.Y.Z-rel` branch are:
 5. Merge `vX.Y.Z-rel` into `main` via PR
    - this PR should only add files `versions/X.Y.Z.md` and `versions/X.Y.Z-editors.md`
 
-The HTML renderings of the specification versions are generated from the `versions` directory on `main` by manually triggering the [`respec` workflow](https://github.com/OAI/OpenAPI-Specification/blob/main/.github/workflows/respec.yaml), which generates a pull request for publishing the HTML renderings to the [spec site](https://spec.openapis.org).
+The HTML renderings of the specification versions are generated from the `versions` directory on `main` by manually triggering the [`respec` workflow](https://github.com/Unity-Billal-mesloub/OpenAPI-Specification/blob/main/.github/workflows/respec.yaml), which generates a pull request for publishing the HTML renderings to the [spec site](https://spec.openapis.org).
 
 #### Start Next Patch Version
 
@@ -266,7 +266,7 @@ A new minor version X.(Y+1).0 or major version (X+1).0.0 is started similarly:
 The schema iterations are published independently from the specification releases [in the schema section on the spec site](https://spec.openapis.org/oas).
 Schemas are updated in and directly published from the `vX.Y-dev` branches.
 
-As part of the publishing process, the YAML source files are converted to JSON, renamed to the relevant last-changed dates, and `WORK-IN-PROGRESS` placeholders are replaced with these dates as appropriate. This is usually done by the [`schema-publish` workflow](https://github.com/OAI/OpenAPI-Specification/blob/main/.github/workflows/schema-publish.yaml) which detects changes on each `vX.Y-dev` branch, which generates a pull request for publishing the new schema iterations to the [spec site](https://spec.openapis.org). The workflow can also be run manually if required.
+As part of the publishing process, the YAML source files are converted to JSON, renamed to the relevant last-changed dates, and `WORK-IN-PROGRESS` placeholders are replaced with these dates as appropriate. This is usually done by the [`schema-publish` workflow](https://github.com/Unity-Billal-mesloub/OpenAPI-Specification/blob/main/.github/workflows/schema-publish.yaml) which detects changes on each `vX.Y-dev` branch, which generates a pull request for publishing the new schema iterations to the [spec site](https://spec.openapis.org). The workflow can also be run manually if required.
 
 #### Schemas and OAS Requirements
 
@@ -339,7 +339,7 @@ Small changes are welcome as pull requests.
 
 Bigger changes require a more formal process.
 
-1. Start a [discussion](https://github.com/OAI/OpenAPI-Specification/discussions) of type "Enhancements".
+1. Start a [discussion](https://github.com/Unity-Billal-mesloub/OpenAPI-Specification/discussions) of type "Enhancements".
    The discussion entry must include some use cases, your proposed solution and the alternatives you have considered.
    If there is engagement and support for the proposal over time, then it can be considered as a candidate to move to the next stage.
 
@@ -350,7 +350,7 @@ Bigger changes require a more formal process.
    specification so that we can understand how, and to what degree, it is being used.
 
 4. If the suggested change has good support, you will be asked to create a formal proposal.
-   Use the [template in the proposals directory](https://github.com/OAI/OpenAPI-Specification/tree/main/proposals), copy it to a new file, and complete it.
+   Use the [template in the proposals directory](https://github.com/Unity-Billal-mesloub/OpenAPI-Specification/tree/main/proposals), copy it to a new file, and complete it.
    Once you the document is ready, open a pull request on the main branch.
 
 5. The proposal will be more closely reviewed and commented on or amended until it is either rejected or accepted.
@@ -384,12 +384,12 @@ The triage team keeps an eye on the backlog and closes issues and discussions th
 To get in touch with other people on the project, ask questions, or anything else:
 
 - Find us [on the OpenAPI Slack](https://communityinviter.com/apps/open-api/openapi).
-- Start a [GitHub Discussion](https://github.com/OAI/OpenAPI-Specification/discussions/).
-- Join one of our weekly meetings by checking the [issues list for an upcoming meetings](https://github.com/OAI/OpenAPI-Specification/issues?q=is%3Aissue%20state%3Aopen%20label%3AHousekeeping).
+- Start a [GitHub Discussion](https://github.com/Unity-Billal-mesloub/OpenAPI-Specification/discussions/).
+- Join one of our weekly meetings by checking the [issues list for an upcoming meetings](https://github.com/Unity-Billal-mesloub/OpenAPI-Specification/issues).
 
 ## Appendix: Branch strategy
 
-For information on the branch and release strategy for OAS 3.0.4 and 3.1.1 and earlier, see the comments in [issue #3677](https://github.com/OAI/OpenAPI-Specification/issues/3677).
+For information on the branch and release strategy for OAS 3.0.4 and 3.1.1 and earlier, see the comments in [issue #3677](https://github.com/Unity-Billal-mesloub/OpenAPI-Specification/issues).
 
 ### Branch roles
 
